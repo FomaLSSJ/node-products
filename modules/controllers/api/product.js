@@ -1,8 +1,8 @@
 'use strict'
 
 const _ = require('lodash')
-const Database = require('../database')
-const Errors = require('../errors')
+const Database = require('../../database')
+const Errors = require('../../errors')
 
 class ProductController {
     static async get(req, res) {

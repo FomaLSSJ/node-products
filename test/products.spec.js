@@ -12,7 +12,7 @@ describe('Products', () => {
                 assert.isObject(res.body)
                 assert.hasAnyKeys(res.body, [ 'data' ])
                 assert.isArray(res.body.data)
-                assert.equal(res.body.data.length, 2)
+                assert.equal(res.body.data.length, 5)
                 done()
             })
     })
