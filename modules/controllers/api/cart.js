@@ -46,6 +46,8 @@ class CartController {
     }
 
     static async delete(req, res) {
+        CartController.sessionInit(req.session)
+
         let { session } = req
         let { product_id } = req.params
         let errors = []
