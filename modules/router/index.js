@@ -8,7 +8,6 @@ class IndexRouter {
     constructor() {
         this.router = Router()
         this.init()
-        this.instance
     }
 
     init() {
